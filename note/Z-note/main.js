@@ -11,6 +11,7 @@ const dialogTitle = document.getElementById("dialogTitle");
 
 loadThemePreference();
 loadNotesFromLocalStorage();
+renderNotes();
 
 document.addEventListener("click", (event) => {
   if (event.target === dialog) {
