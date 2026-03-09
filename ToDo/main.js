@@ -2,6 +2,7 @@ const todoForm = document.querySelector("form");
 const todoInput = document.getElementById("todo-input");
 const todoList = document.getElementById("task-list");
 let tasks = loadTasks();
+let item = [];
 updateTaskList();
 todoForm.addEventListener("submit", function (event) {
   event.preventDefault();
